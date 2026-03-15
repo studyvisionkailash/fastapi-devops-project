@@ -1,0 +1,88 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ----------------------
+# Virtual Environment
+# ----------------------
+venv/
+env/
+.venv/
+ENV/
+
+# ----------------------
+# Environment Variables
+# ----------------------
+.env
+.env.*
+*.env
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+uvicorn.log
+
+# ----------------------
+# PyTest
+# ----------------------
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ----------------------
+# VS Code
+# ----------------------
+.vscode/
+.history/
+
+# ----------------------
+# OS Files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Docker
+# ----------------------
+docker-compose.override.yml
+*.pid
+*.seed
+
+# ----------------------
+# FastAPI / App
+# ----------------------
+*.sqlite3
+*.db
+
+# ----------------------
+# Mypy / Ruff / Lint
+# ----------------------
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# ----------------------
+# Jupyter
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Temporary Files
+# ----------------------
+*.swp
+*.swo
+*~
